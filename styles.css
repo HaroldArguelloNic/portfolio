@@ -75,6 +75,16 @@ body, html {
   .project-tile:hover {
     transform: scale(1.5);
   }
+  .project-tile h2{
+    font-size:1.5rem;
+    background: black;
+    color: white;
+  }
+  .img-project {
+    height: calc(100% - 2rem);
+    width: 100%;
+    object-fit: cover;
+  }
   .footer {
     height: 50vh;
     background: gray;
